@@ -1,13 +1,12 @@
-#summary Simple usage of library on checking validity of tokens.
-#labels Featured
-
-= Checking The Token =
+# Checking The Token
+Simple usage of library on checking validity of tokens.
 
 This page gives the basic example about checking validity of token provided by client.
 
-{{{
+```PHP
 <?php
 include("SecureToken.php");
+
 $st = new SecureToken();
 if(isset($_POST['securetoken']))
 {
@@ -17,4 +16,4 @@ if(isset($_POST['securetoken']))
         die ("Token is not valid");
 }
 ?>
-}}}
+```
