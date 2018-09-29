@@ -1,5 +1,5 @@
 # SecureToken v0.2.1 : An One-Time-Token Class for PHP
-A Small PHP library that can be used for Cross-Site Request Forgery defenses.
+A Small PHP library that can be used for Cross-Site Request Forgery defenses. PHP API to be used in PHP web applications to protect against vulnerability.
 
 ## Introduction
 PHP doesn't have any function or mechanism for CSRF vulnerabilities. Developers must implement their own functions to defend against this vulnerability. So, I have coded a small one-time-token library.
