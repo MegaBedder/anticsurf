@@ -1,4 +1,4 @@
-# anticsurf
+# SecureToken v0.2.1 : An One-Time-Token Class for PHP
 A Small PHP library that can be used for Cross-Site Request Forgery defenses.
 
 ## Introduction
